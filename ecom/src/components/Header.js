@@ -4,7 +4,8 @@ import { LinkContainer } from 'react-router-bootstrap';
 function Header() {
   return (
     <div>
-       <Navbar bg="dark" data-bs-theme="dark">
+       <Navbar bg="dark" variant="dark">
+       {/* data-bs-theme="dark" */}
         <Container>
 
           <LinkContainer to="/">

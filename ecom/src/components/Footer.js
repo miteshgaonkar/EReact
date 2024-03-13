@@ -4,7 +4,7 @@ import {Nav, Navbar, Container, Row} from 'react-bootstrap';
 function Footer() {
   return (
     <div>
-      <Navbar className="bg-body-tertiary">
+      <Navbar bg="dark" variant="dark" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">About</Navbar.Brand>
           <Navbar.Toggle />

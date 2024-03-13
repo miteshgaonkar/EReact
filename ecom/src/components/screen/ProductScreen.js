@@ -33,6 +33,7 @@ function ProductScreen({match,history}) {
 
   const addToCartHandler = ()=>{
     nav(`/cart/${id}?qty=${qty}`);
+    //history.push(`/cart/${match.params.id}?qty=${qty}`)
   }
   //const product = productDetails;
   return (
